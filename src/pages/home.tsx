@@ -1,3 +1,4 @@
+import { constant } from "../../i18n/constants";
 import { ScrollIcon } from "../components/ScrollIcon";
 
 export const Home = () => {
@@ -9,7 +10,7 @@ export const Home = () => {
                      border-r-5 border-[var(--color-brand-white)] whitespace-nowrap overflow-hidden
                      animate-[typing_2s_steps(30,end)_forwards,blink_0.8s_step-end_infinite_2s]"
         >
-          Welcome to the CS Girlie Website
+          {constant.homePage.landingPage.header}
         </h1>
 
         <style>
